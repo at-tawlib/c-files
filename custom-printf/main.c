@@ -26,5 +26,16 @@ int main(void)
 	_printf("the % hel %c oo %% cc %s", 'z', "my guy");
 	_putchar(10);
 
+	_printf("");
+	_putchar(10);
+
+	_printf("empty %s", "");
+	_putchar(10);
+
+	_printf("%d", 1234);
+	_putchar(10);
+
+	_printf("char %c, string %s, num %d", 'e', "my string", 345);
+	_putchar(10);
 	return (0);
 }
