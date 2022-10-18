@@ -35,6 +35,9 @@ int _printf(const char *format, ...)
 				case 's':
 					_print_string(va_arg(arg, char *));
 					break;
+				case 'd':
+					_print_number(va_arg(arg, int));
+					break;
 			}
 		}
 	}
